@@ -1,5 +1,4 @@
-﻿using Modding;
-using Hkmp.Api.Client;
+﻿using Hkmp.Api.Client;
 
 namespace HkmpTransitionAlerts {
     public class ClientGlowManager {

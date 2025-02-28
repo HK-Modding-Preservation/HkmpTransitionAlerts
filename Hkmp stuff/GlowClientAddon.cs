@@ -4,7 +4,7 @@ namespace HkmpTransitionAlerts {
     public class GlowClientAddon: TogglableClientAddon {
         public override bool NeedsNetwork => true;
         protected override string Name => "HkmpTransitionAlerts";
-        protected override string Version => "1.0.0.0";
+        protected override string Version => "1.0.0.1";
 
         private ClientGlowManager _glowManager;
 

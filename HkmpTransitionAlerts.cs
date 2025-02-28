@@ -10,7 +10,7 @@ using Hkmp.Api.Server;
 namespace HkmpTransitionAlerts {
     public class HkmpTransitionAlerts: Mod, ICustomMenuMod, IGlobalSettings<GlobalSettings> {
         new public string GetName() => "HkmpTransitionAlerts";
-        public override string GetVersion() => "1.0.0.0";
+        public override string GetVersion() => "1.0.0.1";
         public static HkmpTransitionAlerts instance;
 
         Dictionary<string, List<(string, Color, float)>> activeLog = new();
